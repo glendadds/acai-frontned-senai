@@ -1,0 +1,876 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Exo:wght@300&family=PT+Sans+Narrow&family=Roboto:wght@700&family=Urbanist:wght@200;300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Exo:wght@300&family=Lobster&family=PT+Sans+Narrow&family=Roboto:wght@700&family=Urbanist:wght@200;300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Exo:wght@300&family=Gruppo&family=Lobster&family=PT+Sans+Narrow&family=Roboto:wght@700&family=Urbanist:wght@200;300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --roxo-acai: #461959;
+    --roxo-acai-2: #671A49;
+    --roxo-acai-3: #62317c;
+    --verde-abacate: #b4d137;
+    --abacate-claro: #bbd185;
+    --laranja: #FFAF40;
+    --azul: #75C2F6;
+    --salmão: #FF5F4D;
+    --bege-rosado: #F2E6DA;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* css header*/
+
+.logo img{
+   width: 180px;
+}
+
+header{
+    width: 100%;
+    padding: 0px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--roxo-acai-2);
+    height: 110px;
+ 
+}
+
+.logo{
+   margin-top: 17px;
+}
+
+
+.links-header ul{
+    display: flex;
+    gap: 130px;
+    list-style-type: none;
+}
+
+.links-header a{
+    text-decoration: none;
+    font-family: 'Urbanist';
+    color: #fff;
+    font-size: 18px;
+    font-weight: 590;
+}
+
+.links-header a:hover{
+    color: var(--verde-abacate);
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  SECTION - 1 */
+
+
+.secao-1{
+    background-color: var(--abacate-claro);
+    text-align: center;
+    padding-top: 10px;
+}
+
+.textos-secaoUm h1{
+   font-family: 'lobster';
+   color: var(--roxo-acai-3);
+   margin-bottom: 20px;
+   font-size: 36px;
+}
+
+.textos-secaoUm h2{
+    font-family: 'gruppo';
+    color:#2C2C2C;
+    font-size: 13px;
+    margin-top: 0;
+}
+
+
+
+.fotos-acai img{
+    width: 200px;
+    transition: 0.5s ease-in-out;  
+ 
+}
+.fotos-acai img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.fotos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 28px;
+}
+
+.folha-1{
+    position: absolute;
+    right: 0;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* css section 2*/
+
+.container-secao2Box{
+    background-color: #F2E6DA;
+    display: flex;
+    gap: 200px;
+    
+}
+
+.container-secao2Box p{
+    margin-left: 100px;
+    margin-top: 40px;
+    width: 400px;
+    letter-spacing: 0.5px;
+    color: #2C2C2C;
+    font-family: "Work Sans", Sans-serif;
+    font-size: 18px;
+}
+
+.container-secao2Box img{
+    width: 350px;
+    padding-top: 50px;
+    border-radius: 80px;
+}
+
+.container-secao2Box h1{
+    text-align: left;
+    width: 120px;
+    font-size: 40px;
+    font-family: "Work Sans", Sans-serif;
+    color: var(--roxo-acai-2);
+    background-image: url("https://acaidabarra.com.br/wp-content/uploads/2023/09/Marca_Texto_1_laranja1.png");
+    background-size: 180px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SECTION - 3 */
+
+.secao-3{
+    background-color: #F2E6DA;
+}
+
+.container-secaoTres{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    padding: 50px;
+}
+
+.container-secaoTres img{
+    width: 30%;
+    padding-bottom: 15px;
+    
+}
+
+
+.elementos{
+    width: 20%;
+    padding: 30px;
+    height: 200px;
+    font-family: "Work Sans", Sans-serif;
+    border-radius: 30px;
+
+}
+
+.elemento-1{
+    color: white;
+    background-color: var(--roxo-acai-2);
+    transition: 1s ease-in-out;
+}
+
+.elemento-2{
+    background-color: var(--azul);
+    color: var(--roxo-acai-2);
+    transition: 1s ease-in-out;
+}
+
+
+.elemento-3{
+    background-color: var(--salmão);
+    color: white;
+    transition: 1s ease-in-out;
+}
+
+.elemento-4{
+    background-color: var(--verde-abacate);
+    color: var(--roxo-acai-2);
+    transition: 1s ease-in-out;
+}
+
+        
+.elemento-1:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.elemento-2:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.elemento-3:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.elemento-4:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* css section 4 */
+
+
+.secao-4{
+    background-color: var(--laranja);
+    padding: 30px;
+  
+}
+
+.secao-4 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--roxo-acai);
+    text-align: center;
+    background-image: url('https://png.pngtree.com/png-clipart/20220125/ourmid/pngtree-brush-light-blue-brush-stroke-png-image_4365586.png');
+    background-position: center;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: 210px
+   
+}
+
+.container-localizacao{
+    color: var(--roxo-acai);
+    font-weight: bolder;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.container-localizacao p{
+    margin-right: 100px;
+    margin: auto;
+}
+
+
+.tagua{
+    transition: 1s ease-in-out;
+}
+
+.aguas{
+    transition: 1s ease-in-out;
+}
+
+.riacho{
+    transition: 1s ease-in-out;
+}
+
+.samamba-norte{
+    transition: 1s ease-in-out;
+}
+
+
+.tagua:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.aguas:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.riacho:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.samamba-norte{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+  /* FOOTER CSS */
+
+  #footer-content{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+footer{
+    background-color:var(--roxo-acai-2);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 590;
+    font-family: 'Urbanist';
+    
+}
+
+
+.links-footer a:hover{
+color: var(--verde-abacate);
+font-weight: bolder;
+}
+
+.links-footer a{
+  color: white;
+  text-decoration: none;
+  padding: 6px;
+  align-items: center;
+  
+}
+
+ul{
+margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* css açaí */
+
+
+.container-produtos{
+    margin-left: 5px;
+    display: flex;
+    gap: 50px;
+    padding-bottom: 20px;
+    margin-left: 40px;
+ 
+  }
+ 
+  .produtos{
+     width: 210px;
+     height: 200px;
+     text-align: center;
+     background-image: url('https://www.onlygfx.com/wp-content/uploads/2022/04/colorful-zen-circle-grunge-brush-stroke-3.png');
+     background-position: center;
+     background-size: cover;
+     background-color: var(--bege-rosado);
+     border-radius: 160px;
+     transition: 0.8s ease-in-out; 
+     
+  }
+ 
+  .produtos:hover{
+     transform: scale(1.1);
+     cursor: pointer;
+  }
+ 
+  .produtos img{
+     margin-top: 30px;
+     height: 126px;
+     width: 175px;
+  }
+ 
+  
+ 
+ 
+ .produtos p{
+     font-size: 14px;
+     text-align: center;
+     font-weight: bold;
+     color: black;
+         
+ }
+ 
+ 
+ .produto-1{
+     background-image: url('https://www.onlygfx.com/wp-content/uploads/2022/04/colorful-zen-circle-grunge-brush-stroke-3.png');
+     background-position: center;
+     background-size: cover;
+ }
+ 
+ .beneficios{
+     background-color:var(--bege-rosado);
+    
+ }
+ 
+ .container-beneficios{
+     margin-left: 10px;
+     display: flex;
+    justify-content: space-around;
+ 
+ 
+ }
+
+ 
+ .container-beneficios h1{
+     font-size: 40px;
+     color: var(--roxo-acai-2);
+     font-weight: bolder;
+     margin-top: 40px;
+     background-image: url('https://png.pngtree.com/png-clipart/20220125/ourmid/pngtree-brush-light-blue-brush-stroke-png-image_4365586.png');
+     background-position: left;
+     background-repeat: no-repeat;
+     background-size: 210px
+ 
+ }
+
+ .mais-pedidos h5{
+    margin-left: 350px;
+    color: var(--roxo-acai);
+    font-weight: bolder;
+    font-family: 'Lobster';
+ }
+ 
+ .lista-beneficios li{
+    color: #2C2C2C;
+    margin-top: 40px;
+ }
+ 
+ section.container-cards{
+     padding: 20px;
+     background-color: #2D033B;
+ }
+ 
+ .card{
+     background-image: linear-gradient( var(--roxo-acai-3), rgba(108, 34, 106, 0.488));
+     cursor: pointer;
+ 
+ }
+ 
+ .card h5{
+     color: var(--roxo-acai-2);
+     font-weight: bold;
+     
+ }
+ 
+ .acompanhamento h2{
+    text-align: center;
+    color: var(--laranja);
+    margin-top: 45px;
+    border-radius: 20px;
+    font-family: 'lobster';
+     
+ }
+ 
+ .tabela-preco{
+    background-color: #2D033B;
+    border-radius: 20px;
+    padding: 10px;
+    transition: 1s ease-in-out; 
+    margin-top: 30px;
+    height: 370px;
+     
+ }
+ 
+ .tabela-preco:hover{
+     transform: scale(1.1);
+     cursor: pointer;
+    
+ }
+ 
+ .tabela-preco h3{
+     color: #FF3FA4;
+     text-align: center;
+     padding: 10px;
+     font-family: 'lobster';
+ }
+ 
+  
+ 
+ .tabela-preco h2{
+  margin-top: 18px;
+  color: white;
+ }
+ 
+ 
+ 
+ strong{
+     background-color: var(--laranja);
+     padding: 5px;
+     border-radius: 100px;
+     color: var(--roxo-acai);
+ }
+ 
+ .cards-acompanhamento{
+     margin-left: 50px;
+ 
+ }
+ 
+ .container-escolha{
+     background-color: #2D033B;
+     padding: 10px;
+     display: flex;
+ }
+ 
+ .container-escolha{
+     color: #FF5F4D;
+ }
+
+
+
+
+
+
+
+
+
+
+
+/* css cupuacu */
+
+
+
+.secao1-cupuacu{
+    display: flex;
+    justify-content: space-around;
+   background-color: var(--roxo-acai-3);
+    padding: 26px;
+
+}
+
+.secao1-cupuacu h1{
+    margin-left: 20px;
+    font-size: 36px;
+    color: salmon;
+
+}
+
+.acompanhamento-cupuacu h2{
+    text-align: center;
+}
+
+.beneficios-h2 h2{
+    margin-left: 40px;
+    color: salmon;
+    font-size: 33px;
+
+}
+
+.lista-cupuacu ul,li{
+    color: white;
+    margin-top: 20px;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS CONTATO */
+
+
+body{
+    background-color: var(--roxo-acai);
+    
+}
+
+h1{
+    text-align: center;
+    font-family: 'Lobster';
+    margin-top: 50px;
+    color: var(--verde-abacate);
+    font-size: 48px;
+}
+
+h2{
+    font-family: 'Lobster';
+    color: var(--laranja);
+    font-size: 30px;
+    margin-top: 80px;
+}
+
+.contato-container{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    padding: 40px;
+}
+
+.container-textos{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+ 
+}
+
+
+.textos-contato p{
+    margin-top: 15px;
+    font-family: sans-serif;
+    color: white;
+}
+
+
+.contatos{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--laranja);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* formulário css */
+
+
+.container-formulario{
+    margin-top: 80px;
+    padding: 12px;
+    border-radius: 20px;
+   
+}
+ 
+fieldset{
+    border-color: var(--roxo-acai-2);
+    border-radius: 20px;
+}
+
+
+legend{
+    text-align: center;
+    font-family: 'lobster';
+    color: var(--verde-abacate);
+}
+
+.container-formulario{
+    background:linear-gradient( #8B1874,#9d5895);
+    height: 550px;
+
+}
+fieldset{
+    height: 530px;
+}
+
+form label{
+    color:white;
+    margin-left: 20px;
+}
+
+.inputBox{
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid var(--roxo-acai);
+    outline: none;
+    width: 90%;
+    color: var(--laranja);
+    font-size: 16px;
+    font-weight: bolder;
+   margin-top: 18px;
+   margin-left: 20px;
+    
+}
+
+
+textarea{
+    background-color: transparent;
+    border: 3px solid var(--roxo-acai);
+    outline: none;
+    color: var(--laranja);
+    font-size: 16px;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+
+.submitBotao{
+    background-color: var(--abacate-claro);
+    padding: 13px;
+    width: 160px;
+    font-size: 16px;
+    font-family: 'gruppo';
+    font-weight: bolder;
+    color: var(--roxo-acai-2);
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.submit{
+  text-align: center;
+
+}
+
+
+.acai-decorado img{
+    width: 650px;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/* CSS SOBRE */
+
+
+
+
+.body-sobre{
+    background-color:var(--bege-rosado);
+}
+
+
+.section-sobre{
+   margin: auto;
+   text-align: center;
+   margin-top: 70px;
+   padding: 10px;
+   background-image: url('https://i.pinimg.com/736x/cf/56/f1/cf56f188a44a5713c92bd53d69c739c3.jpg');
+   background-repeat: no-repeat;
+   background-position: center;
+   border-radius: 60px;
+   width: 500px;
+   height: 340px;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 10px;
+
+}
+
+.section-sobre:hover{
+    cursor: pointer;
+}
+
+.info-dev h3{
+    padding: 8px;
+    color: var(--verde-abacate);
+    font-family: 'lobster';
+    font-size: 25px;
+}
+
+.perfil-nome{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+.container-redes{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.git-icone:hover{
+    transform: scale(1.1);
+}
+
+.gmail-icone:hover{
+    transform: scale(1.1);
+}
+
+
